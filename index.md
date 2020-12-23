@@ -1,4 +1,8 @@
-Here are a few links to check out.
+Here are a few links to check out.  Each is to some code I've written
+for fun or as a learning exercise.  For contractual reasons I can't
+show code that I've worked on professionally or even personal projects
+that are too similar.
+
 * [My LinkedIn profile](https://www.linkedin.com/in/scott-mcguire-2a7081b)
 * [A distributed, lisp-like interpreter](https://github.com/abstractionlair/delicious)
 * [A non-distributed scheme interpreter](https://github.com/abstractionlair/scheme3) closer to a normal one.
