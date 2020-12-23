@@ -1,7 +1,7 @@
 About me:
 * [My LinkedIn profile](https://www.linkedin.com/in/scott-mcguire-2a7081b)
 
-Here are a few personal projects check out.  Each contain code I've written
+Here are a few personal projects to check out.  Each contain code I've written
 for fun or as a learning exercise.  For contractual reasons I can't
 show code that I've worked on professionally or even personal projects
 that are too similar.
