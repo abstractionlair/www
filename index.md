@@ -7,6 +7,6 @@ show code that I've worked on professionally or even personal projects
 that are too similar.
 * [A distributed, lisp-like interpreter](https://github.com/abstractionlair/delicious)
 * [A non-distributed scheme interpreter](https://github.com/abstractionlair/scheme3) closer to a normal one.
-* [The NBody problem](https://github.com/abstractionlair/NBody) from the computer language benchmarks game in Haskell.
+* [The NBody problem](https://github.com/abstractionlair/NBody), from the computer language benchmarks game, in Haskell.
 * [Red-black, AVL, and other trees](https://github.com/abstractionlair/Trees) in Haskell.
 
