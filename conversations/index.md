@@ -6,73 +6,40 @@ permalink: /conversations/
 
 # Curated AI Conversations
 
-This collection contains curated conversations with Claude, organized by topic. Each consolidated file contains multiple related conversations that fit within a single Claude context window, making them easy to analyze and reference.
+## Featured Conversations
 
-## Topics
-
-### 🤖 Core AI Architecture
-
-#### [Transformer Architecture](/conversations/transformer-architecture/)
-Deep dives into transformer models, attention mechanisms, tokenization, and architectural innovations. Covers both theoretical foundations and practical implementations.
-
-#### [Advanced AI Architectures](/conversations/ai-architecture-advanced/)
-Exploration of cutting-edge architectures including Mixture of Experts (MoE), reasoning models, neural architecture evolution, and novel computational approaches.
-
-### 🧠 AI Consciousness & Philosophy
-
-#### [AI Consciousness & Philosophy](/conversations/ai-consciousness-philosophy/)
-Philosophical explorations of machine consciousness, AI ethics, moral frameworks, and the nature of AI experience and understanding.
-
-#### [AI Safety & Alignment](/conversations/ai-safety-alignment/)
-Critical discussions on existential risk, alignment theory, AI safety frameworks, and strategies for beneficial AI development.
-
-### 💻 Development & Implementation
-
-#### [AI Tool Development](/conversations/ai-tool-development/)
-Building AI-powered tools, APIs, SDKs, and development frameworks. Includes Claude API integration and multi-model orchestration.
-
-#### [Code Review & Analysis](/conversations/ai-code-review/)
-AI-assisted code analysis, technical debt resolution, and software development methodologies.
-
-#### [Claude Projects Optimization](/conversations/claude-projects-meta/)
-Meta-level optimization of Claude Projects, custom instructions, context management, and persistent memory strategies.
-
-### 📊 Quantitative & Statistical Methods
-
-#### [Quantitative Finance & AI](/conversations/ai-quantitative-finance/)
-Applications of AI to financial modeling, oil markets, trading systems, and quantitative analysis.
-
-#### [Statistical Methods](/conversations/ai-statistical-methods/)
-Bayesian inference, forecasting, time series analysis, and advanced statistical techniques in AI contexts.
-
-### 🎯 Theory & Capabilities
-
-#### [Decision Theory](/conversations/ai-decision-theory/)
-Game theory, rational choice, decision-making frameworks, and their applications to AI systems.
-
-#### [AI Capabilities & Limits](/conversations/ai-capabilities-limits/)
-Understanding model capabilities, limitations, context windows, and performance characteristics.
+- [Reasoning Models as Unrolled Neural Networks](/conversations/featured/reasoning-models-as-unrolled-neural-networks/)
+- [Transformer Information Flow and Architecture Deep Dive](/conversations/featured/transformer-information-flow-and-architecture-deep-dive/)
+- [Vector-Space Thinking for Chain-of-Thought Models](/conversations/featured/vector-space-thinking-for-chain-of-thought-models/)
+- [Distributed MoE Precision Heterogeneity and HPC Architecture](/conversations/featured/distributed-moe-precision-heterogeneity-and-hpc-architecture/)
+- [Dynamic Model Growth Through Physics-Inspired Architecture Evolution](/conversations/featured/dynamic-model-growth-through-physics-inspired-architecture-evolution/)
+- [AI Consciousness, Safety Testing, and Equilibrium Dynamics](/conversations/featured/ai-consciousness-safety-testing-and-equilibrium-dynamics/)
+- [Testing AI Consciousness via Embedding Space Extrapolation](/conversations/featured/testing-ai-consciousness-via-embedding-space-extrapolation/)
+- [Philosophy Meets Frontier AI: Consciousness and Alignment](/conversations/featured/philosophy-meets-frontier-ai-consciousness-and-alignment/)
+- [Brain Optimization vs AI: Constraints and Evolution](/conversations/featured/brain-optimization-vs-ai-constraints-and-evolution/)
+- [Probabilistic Analysis of AI Existential Risk](/conversations/featured/probabilistic-analysis-of-ai-existential-risk/)
+- [Multi-Model Dialog on ASI, Safety, and Economics](/conversations/featured/multi-model-dialog-on-asi-safety-and-economics/)
+- [Decision Theory and AI Evolution](/conversations/featured/decision-theory-and-ai-evolution/)
+- [Human Utility as AI Money](/conversations/featured/human-utility-as-ai-money/)
+- [AI Computer Interfaces: From Human GUIs to Model-Native Design](/conversations/featured/ai-computer-interfaces-from-human-guis-to-model-native-design/)
+- [Emulating Long-Term Memory in Claude Projects](/conversations/featured/emulating-long-term-memory-in-claude-projects/)
+- [Identification Problem in Supply-Demand Models](/conversations/featured/identification-problem-in-supply-demand-models/)
+- [Reasoning Models and Modular Architecture](/conversations/featured/reasoning-models-and-modular-architecture/)
 
 ---
 
-## About This Collection
+## Topic Collections
 
-These conversations represent explorations at the intersection of AI, philosophy, mathematics, and practical implementation. They showcase:
+Consolidated conversations sized to fit into Claude conversation contexts.
 
-- **Technical Depth**: From transformer architecture to advanced statistical methods
-- **Philosophical Inquiry**: Consciousness, ethics, and the nature of intelligence
-- **Practical Applications**: Building tools, solving real-world problems
-- **Safety Considerations**: Alignment, risk assessment, and beneficial AI development
-
-Each topic directory contains a `CONSOLIDATED_[topic].md` file with all conversations for that topic, formatted for easy reading and analysis.
-
-## Navigation Tips
-
-- Each topic page includes a table of contents for easy navigation
-- Conversations are numbered and separated with clear dividers
-- Files are sized to fit within Claude's context window for analysis
-- Topics with extensive content may have additional subdirectories
-
----
-
-*This collection is part of [abstractionlair.xyz](https://abstractionlair.xyz) - exploring the frontiers of AI understanding.*
+- <a href="/conversations/CONSOLIDATED_transformer-architecture.md" download="CONSOLIDATED_transformer-architecture.md">Transformer Architecture</a>
+- <a href="/conversations/CONSOLIDATED_ai-architecture-advanced.md" download="CONSOLIDATED_ai-architecture-advanced.md">Advanced AI Architectures</a>
+- <a href="/conversations/CONSOLIDATED_ai-consciousness-philosophy.md" download="CONSOLIDATED_ai-consciousness-philosophy.md">AI Consciousness & Philosophy</a>
+- <a href="/conversations/CONSOLIDATED_ai-safety-alignment.md" download="CONSOLIDATED_ai-safety-alignment.md">AI Safety & Alignment</a>
+- <a href="/conversations/CONSOLIDATED_ai-tool-development.md" download="CONSOLIDATED_ai-tool-development.md">AI Tool Development</a>
+- <a href="/conversations/CONSOLIDATED_ai-code-review.md" download="CONSOLIDATED_ai-code-review.md">Code Review & Analysis</a>
+- <a href="/conversations/CONSOLIDATED_claude-projects-meta.md" download="CONSOLIDATED_claude-projects-meta.md">Claude Projects Optimization</a>
+- <a href="/conversations/CONSOLIDATED_ai-quantitative-finance.md" download="CONSOLIDATED_ai-quantitative-finance.md">Quantitative Finance & AI</a>
+- <a href="/conversations/CONSOLIDATED_ai-statistical-methods.md" download="CONSOLIDATED_ai-statistical-methods.md">Statistical Methods</a>
+- <a href="/conversations/CONSOLIDATED_ai-decision-theory.md" download="CONSOLIDATED_ai-decision-theory.md">Decision Theory</a>
+- <a href="/conversations/CONSOLIDATED_ai-capabilities-limits.md" download="CONSOLIDATED_ai-capabilities-limits.md">AI Capabilities & Limits</a>
