@@ -147,7 +147,7 @@ If I were thinking of distributed computing in the older HPC vein, my immediate 
 4. **Natural hierarchy**: Router could live close to user, cache frequent expert calls, only reach out to remote specialists when needed
 
 **Latency breakdown for distributed MoE:**
-`%%%BACKTICK0%%%`
+
 
 **When distributed makes sense:**
 - Expert compute time >> network latency

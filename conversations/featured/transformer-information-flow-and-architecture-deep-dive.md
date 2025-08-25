@@ -90,7 +90,7 @@ GPTs attention is one directional, right?
 
 You can visualize this as a triangular attention mask:
 
-`%%%BACKTICK0%%%`
+
 
 Where each row represents what a position can attend to. So position 3 can attend to positions 1, 2, and itself, but not position 4.
 

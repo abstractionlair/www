@@ -149,7 +149,7 @@ This shows $P_t$ is correlated with both error terms, creating endogeneity.
 
 Consider two equilibrium points $(P_1, Q_1)$ and $(P_2, Q_2)$ where $P_2 > P_1$ and $Q_2 > Q_1$:
 
-`%%%BACKTICK0%%%`
+
 
 Is this:
 - Movement along supply curve? (Demand shifted)

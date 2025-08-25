@@ -27,7 +27,6 @@ I'd like to capture in Project Knowledge a description of what I am aiming for i
  I'll help create an artifact that captures this important insight about how we're using Project Knowledge as a form of emulated long-term memory for project agents.
 
 `&lt;antThinking&gt;`This is a good candidate for an artifact as it documents a key conceptual understanding about how Project Knowledge functions as pseudo-memory across conversations. As a meta-level insight about the system itself, it will be valuable for future project development.`&lt;/antThinking&gt;`
-`%%%BACKTICK0%%%`
 
 
 
@@ -50,7 +49,6 @@ Let's expand the scope and have 1) the goal, 2) a description of the relevant fe
  I'll help create a more comprehensive document that situates the memory emulation within the broader context of our goals and the available system features.
 
 `&lt;antThinking&gt;`This deserves a new version as it's a substantial expansion of scope that will better capture the complete system design philosophy. The structure should move from high-level goals through implementation details.`&lt;/antThinking&gt;`
-`%%%BACKTICK1%%%`
 
 
 
