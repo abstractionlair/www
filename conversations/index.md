@@ -30,7 +30,7 @@ permalink: /conversations/
 
 ## Topic Collections
 
-Consolidated conversations sized to fit into Claude conversation contexts.
+Here I've collected a much larger set of conversations, sorted by topic, and created one consolidated Markdown file for each. They are sized to fit within standard Claude context windows so Claude can summmarize them, evaluate them, or answer questions about them,
 
 - <a href="/conversations/CONSOLIDATED_transformer-architecture.md" download="CONSOLIDATED_transformer-architecture.md">Transformer Architecture</a>
 - <a href="/conversations/CONSOLIDATED_ai-architecture-advanced.md" download="CONSOLIDATED_ai-architecture-advanced.md">Advanced AI Architectures</a>
