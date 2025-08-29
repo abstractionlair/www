@@ -25,6 +25,7 @@ permalink: /conversations/
 - [Emulating Long-Term Memory in Claude Projects](/conversations/featured/emulating-long-term-memory-in-claude-projects/)
 - [Identification Problem in Supply-Demand Models](/conversations/featured/identification-problem-in-supply-demand-models/)
 - [Reasoning Models and Modular Architecture](/conversations/featured/reasoning-models-and-modular-architecture/)
+- [Modular MoE Architecture with Swappable Middle Layers](conversations/featured/modular-MoE-architecture-with-swappable-middle-layers/)
 
 ---
 
