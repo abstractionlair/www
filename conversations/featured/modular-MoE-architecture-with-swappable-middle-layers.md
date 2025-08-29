@@ -1,8 +1,12 @@
-# Modular MoE Architecture with Swappable Middle Layers
+---
+layout: default
+title: "Modular MoE Architecture with Swappable Middle Layers"
+permalink: conversations/featured/modular-MoE-architecture-with-swappable-middle-layers/
+---
 
-**Created:** 2025-08-28T00:00:00.000000Z
-**Updated:** 2025-08-28T00:00:00.000000Z
-**UUID:** [generated-uuid-placeholder]
+# Modular MoE Architecture with Swappable Middle Layers
+ 
+ [← Back to Conversations](/conversations/) | [← Featured Conversations](/conversations/#featured)
 
 ---
 
