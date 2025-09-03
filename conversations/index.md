@@ -4,9 +4,13 @@ title: AI Conversations Collection
 permalink: /conversations/
 ---
 
+
 # Curated AI Conversations
+This page contains a selection of conversations about AI with different models, but predominantly Claude.
+
 
 ## Featured Conversations
+This is a selection of what I think are the most interesting individual conversations. Most are also in the larger collections below. But there may be a couple that I added after I had already created the consolidated collections.
 
 - [Reasoning Models as Unrolled Neural Networks](/conversations/featured/reasoning-models-as-unrolled-neural-networks/)
 - [Transformer Information Flow and Architecture Deep Dive](/conversations/featured/transformer-information-flow-and-architecture-deep-dive/)
