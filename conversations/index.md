@@ -14,7 +14,7 @@ This is a selection of what I think are the most interesting individual conversa
 
 - [Reasoning Models as Unrolled Neural Networks](/conversations/featured/reasoning-models-as-unrolled-neural-networks/)
 - [Transformer Information Flow and Architecture Deep Dive](/conversations/featured/transformer-information-flow-and-architecture-deep-dive/)
-- [Vector-Space Thinking for Chain-of-Thought Models](/conversations/featured/vector-space-thinking-for-chain-of-thought-models/)
+- [Vector-Space Thinking for Chain-of-Thought Models](/conversations/featured/vector-space-thinking-for-chain-of-thought-models/) ([Related GitHub repo](https://github.com/abstractionlair/vector-space-generation/tree/main))
 - [Distributed MoE Precision Heterogeneity and HPC Architecture](/conversations/featured/distributed-moe-precision-heterogeneity-and-hpc-architecture/)
 - [Dynamic Model Growth Through Physics-Inspired Architecture Evolution](/conversations/featured/dynamic-model-growth-through-physics-inspired-architecture-evolution/)
 - [AI Consciousness, Safety Testing, and Equilibrium Dynamics](/conversations/featured/ai-consciousness-safety-testing-and-equilibrium-dynamics/)
