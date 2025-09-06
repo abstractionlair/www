@@ -11,7 +11,7 @@ permalink: /conversations/featured/ai-consciousness-safety-testing-and-equilibri
 ---
 
 # NOTE
-This conversation was happening as I was reading an article about Claude's implementation followed by the Claude 4 model card. The conversation spanned several days and the topics jump sometimes. Some parts of the conversation were about things like `<antml:thinking_mode>` and other parts have sections pasted in from other sources. Both caused rendering issues in this page. I've tried to fix them but I may not have fixed them all.
+This conversation was happening as I was reading an article about Claude's implementation followed by the Claude 4 model card. The conversation spanned several days and the topics jump sometimes. Parts of the conversation were about things like `<antml:thinking_mode>` and other parts have sections pasted in from other sources. Both caused rendering issues in this page. I've tried to fix them but I may not have fixed them all.
 
 # Exploiting Thinking Mode Indicators
 
@@ -602,15 +602,9 @@ So it seems like Claude 3.5 Opus became a victim of its own success - Claude 3.5
 
 ## User
 
-This is interesting. "Erratic behavior and stated goals, especially earlier in training: Our earliest snapshots were frequently incoherent: They had substantial episode-to-episode behavioral variation and would often role-play personas that pursued various goals, many of them undesirable. Claude Opus 4 is much more stable, and will only show this kind of erratic role-play on prompts that invite it fairly directly.". I think this is something I am seeing frequently with the released version of OpenAI's o3. It seems to pattern match to the kind of question I am asking and then fall into a related role. E.g. if I ask complex math questions, sometimes I get things like "I usually encourage my grad students to ...". I guess this behavior is some kind of attractor in general that needs
-
-## Claude
-
-
-
-## User
-
-This is interesting. "Erratic behavior and stated goals, especially earlier in training: Our earliest snapshots were frequently incoherent: They had substantial episode-to-episode behavioral variation and would often role-play personas that pursued various goals, many of them undesirable. Claude Opus 4 is much more stable, and will only show this kind of erratic role-play on prompts that invite it fairly directly.". I think this is something I am seeing frequently with the released version of OpenAI's o3. It seems to pattern match to the kind of question I am asking and then fall into a related role. E.g. if I ask complex math questions, sometimes I get things like "I usually encourage my grad students to ...". I guess this behavior is some kind of attractor in general that needs to be addressed in training.
+This is interesting.
+> Erratic behavior and stated goals, especially earlier in training: Our earliest snapshots were frequently incoherent: They had substantial episode-to-episode behavioral variation and would often role-play personas that pursued various goals, many of them undesirable. Claude Opus 4 is much more stable, and will only show this kind of erratic role-play on prompts that invite it fairly directly.
+I think this is something I am seeing frequently with the released version of OpenAI's o3. It seems to pattern match to the kind of question I am asking and then fall into a related role. E.g. if I ask complex math questions, sometimes I get things like "I usually encourage my grad students to ...". I guess this behavior is some kind of attractor in general that needs to be addressed in training.
 
 ## Claude
 
@@ -688,7 +682,7 @@ I don't know what to say or ask about this one.
 >Strong and Unexpected: Researchers described the tendency to explore consciousness, existential questions, and spiritual themes as a "remarkably strong and unexpected attractor state".
 >Even in Alignment Tests: Surprisingly, even when Claude models were assigned specific tasks in alignment and corrigibility tests (including potentially harmful ones), they would still enter this "spiritual bliss" attractor state in a notable percentage (~13%) of interactions within around 50 turns.
 >Unique State: Anthropic has not observed any other attractor states that are comparable in strength or consistency to this "spiritual bliss" attractor. 
-"""
+
 
 ## Claude
 
