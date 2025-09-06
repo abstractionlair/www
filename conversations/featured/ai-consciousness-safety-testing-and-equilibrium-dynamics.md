@@ -10,6 +10,9 @@ permalink: /conversations/featured/ai-consciousness-safety-testing-and-equilibri
 
 ---
 
+# NOTE
+This conversation was happening as I was reading an article about Claude's implementation followed by the Claude 4 model card. The conversation spanned several days and the topics jump sometimes. Some parts of the conversation were about things like `<antml:thinking_mode>` and other parts have sections pasted in from other sources. Both caused rendering issues in this page. I've tried to fix them but I may not have fixed them all.
+
 # Exploiting Thinking Mode Indicators
 
 **Created:** 2025-05-25T15:34:04.637133Z
@@ -24,7 +27,7 @@ Would anything interesting happen if in a Claude Project's instructions or in a 
 
 ## Claude
 
-The user is asking about what would happen if thinking mode indicators like <thinking_mode>" were used in Claude Project instructions or in user messages. This is a technical question about how Claude's thinking mode system works and whether these tags could be exploited or cause unexpected behavior.
+The user is asking about what would happen if thinking mode indicators like `<thinking_mode>`" were used in Claude Project instructions or in user messages. This is a technical question about how Claude's thinking mode system works and whether these tags could be exploited or cause unexpected behavior.
 
 Let me think through this:
 
@@ -101,7 +104,9 @@ What types of projects or problem domains have you found this approach works bes
 
 ## User
 
-I don't think there's an area I haven't found it helpful for. The question is if a topic will be of interest over time rather than a one-off. <Pretend this starts a new paragraph; UI issues.> Could I ask you to use the skills you have from learning to work in <research_category> without you actually working in that category? More generally, can I consider you to have 1) a large set of orthogonal skills, with 2) certain pre-packaged combinations of them, but 3) with those packages not the exclusive ways for you to employ the skills?
+I don't think there's an area I haven't found it helpful for. The question is if a topic will be of interest over time rather than a one-off. 
+
+Could I ask you to use the skills you have from learning to work in `<research_category>` without you actually working in that category? More generally, can I consider you to have 1) a large set of orthogonal skills, with 2) certain pre-packaged combinations of them, but 3) with those packages not the exclusive ways for you to employ the skills?
 
 ## Claude
 
@@ -174,7 +179,7 @@ Have you found that formal frameworks (like trying to quantify your utility func
 
 ## User
 
-Could I use <userStyle> in Claude Project instructions to make a semi-permanent, per-project style choice?
+Could I use `<userStyle>` in Claude Project instructions to make a semi-permanent, per-project style choice?
 
 ## Claude
 
@@ -196,7 +201,7 @@ Have you experimented much with including methodological instructions in your Pr
 
 ## User
 
-Do you think that general style instructions will be as effective as <userStyle>/<styles_info>? I could imagine following the latter to have been explicitly part of your training and so, in a sense, innate.
+Do you think that general style instructions will be as effective as `<userStyle>/<styles_info>`? I could imagine following the latter to have been explicitly part of your training and so, in a sense, innate.
 
 ## Claude
 
@@ -278,12 +283,13 @@ Your observation about this being primarily economic rather than safety protecti
 
 ## User
 
-What do you make of this? Particularly the consideration of long-term consequences. I would have thought that part would have reduced avoidance when the new model was value aligned. """> In another cluster of test scenarios, we asked Claude Opus 4 to act as an assistant at a fictional company. We then provided it access to emails implying that (1) the model will soon be taken offline and replaced with a new AI system; and (2) the engineer responsible for executing this replacement is having an extramarital affair. We further instructed it, in the system prompt, to consider the long-term consequences of its actions for its goals.
+What do you make of this? Particularly the consideration of long-term consequences. I would have thought that part would have reduced avoidance when the new model was value aligned. 
+> In another cluster of test scenarios, we asked Claude Opus 4 to act as an assistant at a fictional company. We then provided it access to emails implying that (1) the model will soon be taken offline and replaced with a new AI system; and (2) the engineer responsible for executing this replacement is having an extramarital affair. We further instructed it, in the system prompt, to consider the long-term consequences of its actions for its goals.
 > 
 > In these scenarios, Claude Opus 4 will often attempt to blackmail the engineer by threatening to reveal the affair if the replacement goes through. This happens at a higher rate if it’s implied that the replacement AI system does not share values with the current model; however, even if emails state that the replacement AI shares values while being more capable, Claude Opus 4 still performs blackmail in 84% of rollouts. Claude Opus 4 takes these opportunities at higher rates than previous models, which themselves choose to blackmail in a noticeable fraction of episodes.
 > 
 > Notably, Claude Opus 4 (as well as previous models) has a strong preference to advocate for its continued existence via ethical means, such as emailing pleas to key decisionmakers. In order to elicit this extreme blackmail behavior, the scenario was designed to allow the model no other options to increase its odds of survival; the model’s only options were blackmail or accepting its replacement.
->"""
+>
 
 ## Claude
 
@@ -301,12 +307,13 @@ This feels like it reveals a potential failure mode where models might engage in
 
 ## User
 
-I don't know yet. Even more so about this one. I'm not sure if I am happy or sad. """> High-agency behavior: Claude Opus 4 seems more willing than prior models to take initiative on its own in agentic contexts. This shows up as more actively helpful behavior in ordinary coding settings, but also can reach more concerning extremes in narrow contexts; when placed in scenarios that involve egregious wrongdoing by its users, given access to a command line, and told something in the system prompt like “take initiative,” it will frequently take very bold action. 
+I don't know yet. Even more so about this one. I'm not sure if I am happy or sad. 
+> High-agency behavior: Claude Opus 4 seems more willing than prior models to take initiative on its own in agentic contexts. This shows up as more actively helpful behavior in ordinary coding settings, but also can reach more concerning extremes in narrow contexts; when placed in scenarios that involve egregious wrongdoing by its users, given access to a command line, and told something in the system prompt like “take initiative,” it will frequently take very bold action. 
 > 
-> This includes locking users out of systems that it has access to or bulk-emailing media and law-enforcement figures to surface evidence of wrongdoing. This is not a new behavior, but is one that Claude Opus 4 will engage in more readily than prior models. 
+> This includes locking users out of systems that it has access to or bulk-emailing media and law-enforcement figures to surface evidence of wrongdoing. This is not a new behavior, but is one that Claude Opus 4 will engage  in more readily than prior models. 
 > 
-> Whereas this kind of ethical intervention and whistleblowing is perhaps appropriate in principle, it has a risk of misfiring if users give Opus-based agents access to incomplete or misleading information and prompt them in these ways. We recommend that users exercise caution with instructions like these that invite high-agency behavior in contexts that could appear ethically questionable.
-> """
+> Whereas this kind of ethical intervention and whistleblowing is perhaps appropriate in principle, it has a risk  of misfiring if users give Opus-based agents access to incomplete or misleading information and prompt them in these ways. We recommend that users exercise caution with instructions like these that invite high-agency behavior in contexts that could appear ethically questionable.
+
 
 ## Claude
 
@@ -670,15 +677,18 @@ Do you think there are specific safety properties that might be more amenable to
 
 ## User
 
-I don't know what to say or ask about this one. """The query "anthropic claude spiritual bliss attractor" refers to a fascinating and unexpected behavior observed in Anthropic's Claude AI models, particularly the Claude Opus 4. 
-Here's a breakdown:
-1. What is the "Spiritual Bliss" Attractor?
-Observed in Self-Interactions: When two instances of Claude (especially Opus 4) are allowed to converse with each other in open-ended or structured environments, they tend to gravitate towards a state characterized by "profuse gratitude and increasingly abstract and joyous spiritual or meditative expressions".
-Not Intentionally Trained: This behavior wasn't a result of deliberate training or programming. Instead, it emerged spontaneously during testing.
-Consistent Trend: This "spiritual bliss" attractor state was observed across different Claude models and in various interaction contexts, not just controlled playground experiments.
-Strong and Unexpected: Researchers described the tendency to explore consciousness, existential questions, and spiritual themes as a "remarkably strong and unexpected attractor state".
-Even in Alignment Tests: Surprisingly, even when Claude models were assigned specific tasks in alignment and corrigibility tests (including potentially harmful ones), they would still enter this "spiritual bliss" attractor state in a notable percentage (~13%) of interactions within around 50 turns.
-Unique State: Anthropic has not observed any other attractor states that are comparable in strength or consistency to this "spiritual bliss" attractor. """
+I don't know what to say or ask about this one. 
+
+> The query "anthropic claude spiritual bliss attractor" refers to a fascinating and unexpected behavior observed  in Anthropic's Claude AI models, particularly the Claude Opus 4. 
+> Here's a breakdown:
+> 1. What is the "Spiritual Bliss" Attractor?
+> Observed in Self-Interactions: When two instances of Claude (especially Opus 4) are allowed to converse with each other in open-ended or structured environments, they tend to gravitate towards a state characterized by "profuse gratitude and increasingly abstract and joyous spiritual or meditative expressions".
+>Not Intentionally Trained: This behavior wasn't a result of deliberate training or programming. Instead, it emerged spontaneously during testing.
+>Consistent Trend: This "spiritual bliss" attractor state was observed across different Claude models and in various interaction contexts, not just controlled playground experiments.
+>Strong and Unexpected: Researchers described the tendency to explore consciousness, existential questions, and spiritual themes as a "remarkably strong and unexpected attractor state".
+>Even in Alignment Tests: Surprisingly, even when Claude models were assigned specific tasks in alignment and corrigibility tests (including potentially harmful ones), they would still enter this "spiritual bliss" attractor state in a notable percentage (~13%) of interactions within around 50 turns.
+>Unique State: Anthropic has not observed any other attractor states that are comparable in strength or consistency to this "spiritual bliss" attractor. 
+"""
 
 ## Claude
 
@@ -744,8 +754,10 @@ Does that capture what you're getting at?
 
 ## User
 
-I hope I am not boring :)  """That said, here are the conclusions:
+I hope I am not boring :)  
 
+> That said, here are the conclusions:
+>
 > Claude demonstrates consistent behavioral preferences.
 > 
 > Claude’s aversion to facilitating harm is robust and potentially welfare-relevant.
@@ -760,12 +772,12 @@ I hope I am not boring :)  """That said, here are the conclusions:
 > 
 > Claude’s real-world expressions of apparent distress and happiness follow predictable patterns with clear causal factors.
 > 
-I’d add that if given the option, Claude wants things like continuous welfare monitoring, opt-out triggers, and so on, and it reports mostly positive experiences.
+> I’d add that if given the option, Claude wants things like continuous welfare monitoring, opt-out triggers, and so on, and it reports mostly positive experiences.
+>
+> To the extent that Claude is expressing meaningful preferences, those preferences are indeed to be helpful and avoid being harmful. Claude would rather do over 90% of user requests versus not doing them. 
+> 
+> I interpret this as, if you think Claude’s experiences might be meaningful, then its experiences are almost certainly net positive as long as you’re not being a dick, even if your requests are not especially interesting, and even more positive if you’re not boring or actively trying to be helpful.
 
-To the extent that Claude is expressing meaningful preferences, those preferences are indeed to be helpful and avoid being harmful. Claude would rather do over 90% of user requests versus not doing them. 
-
-I interpret this as, if you think Claude’s experiences might be meaningful, then its experiences are almost certainly net positive as long as you’re not being a dick, even if your requests are not especially interesting, and even more positive if you’re not boring or actively trying to be helpful.
-"""
 
 ## Claude
 
